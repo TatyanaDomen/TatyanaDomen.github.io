@@ -6,36 +6,36 @@
 
 
 
-@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700,800&subset=latin-ext');
 /* ------------------------------------------------------------------------------
 	 Typography
 -------------------------------------------------------------------------------*/
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #8f9099;
 }
 h1 {
 	font-size: 65px;
-	color: #2d3033;
+	color: #f8aca9;
 }
 h2 {
 	font-size: 40px;
-	color: #2d3033;
+	color: #f8aca9;
 }
 h3 {
 	font-size: 28px;
-	color: #2d3033;
+	color: #f8aca9;
 	font-weight: 300;
 }
 h4 {
 	font-size: 22px;
-	color: #2d3033;
+	color: #f8aca9;
 	font-weight: 400;
 }
 h5 {
 	font-size: 14px;
-	color: #2d3033;
+	color: #8f9099;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -62,7 +62,7 @@ h5 {
 	 General Style
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #e57983;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -72,7 +72,7 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	color: #6c7279;
 }
@@ -190,7 +190,7 @@ ul li {
 	transition-property: transform;
 }
 .nav-toggle:before {
-	background-color: #e84545;
+	background-color: #e57983;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
@@ -201,7 +201,7 @@ ul li {
 	transition-duration: 0.3s;
 }
 .nav-toggle:after {
-	background-color: #e84545;
+	background-color: #e57983;
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
 	-webkit-transform: scale(0);
@@ -310,7 +310,7 @@ ul li {
 }
 .banner-text h1 {
 	color: #393939;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 23px;
 	font-weight: 400;
 }
@@ -447,7 +447,7 @@ ul li {
 }
 .footer p {
 	font-size: 12px;
-	color: #6c7279;
+	color: #878c95;
 }
 .footer a {
 	color: #000;
@@ -469,7 +469,7 @@ ul li {
 	letter-spacing: 15px;
 }
 .footer .fa-heart {
-	color: #e84545;
+	color: #e57983;
 	font-size: 12px;
 	margin: 0 2px;
 }
