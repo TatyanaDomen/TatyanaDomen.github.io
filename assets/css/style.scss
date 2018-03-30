@@ -1,8 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-/* ------------------------------------------------------------------------------
+@import "{{ /* ------------------------------------------------------------------------------
 	Template Name: Floix
 	Author: Designstub
 	Author URI: http://www.designstub.com
@@ -476,4 +475,5 @@ ul li {
 	color: #e84545;
 	font-size: 12px;
 	margin: 0 2px;
-}
+} }}";
+
