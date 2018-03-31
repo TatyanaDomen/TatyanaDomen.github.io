@@ -19,7 +19,7 @@
 	.contat-from-wrapper{ margin-top:10px; padding:0 15px}
 	.grid-lod li{ width:100% !important; position:static !important; display:inline-block}
 	.grid-lod li img{ width:100%}
-	.work-details,.blog-details{ padding:0; margin-top:0}
+	.work-details{ padding:0; margin-top:0}
 	.comments-reply li section{ width:88%}
 }
 /* xs */
@@ -50,16 +50,6 @@
 	.work-images li{ margin-bottom:0; width:100%}
 	.work-images li figcaption h2{ font-size:18px;}
 	.grid-lod li{ width:100% !important; position:static !important}
-	.bog-header h3, .comments-pan h3, .commentys-form h4{ padding-bottom:0}
-	.bog-header h2{ font-size:18px; line-height:26px}
-	.bog-header{ padding-bottom:20px}
-	.blog-details .enter-content{ margin-top:10px}
-	.blog-details .enter-content p,.comments-reply li section{ font-size:14px; line-height:26px}
-	.comments-pan h3{ padding-bottom:20px; margin-top:0}
-	.comments-reply li section{ float:none; width:auto; padding-left:0}
-	.comments-reply li figure{ margin-right:20px}
-	.reply-pan{ margin-left:20px}
-	.commentys-form input[type="text"], .commentys-form input[type="email"], .commentys-form input[type="url"], .commentys-form textarea{ margin-bottom:20px}
-	.commentys-form textarea{ margin-top:0; margin-bottom:0}
+
 	
 }
