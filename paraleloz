@@ -1,0 +1,132 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tatyana Domen // Paraleloz.digital</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- header top section -->
+<header id="header">
+  <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
+    <nav class="navigation" role="navigation">
+      <ul class="primary-nav">
+        <li>+55 44 9 9849 5442</li>
+        <li><a href="mailto:hello@tatyanadomen.me">hello@tatyanadomen.me</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+</section>
+<!-- header top section -->
+<!-- header content section -->
+<section id="works-info" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <h4>Paraleloz.digital</h4>
+          <p>Um projeto muito especial desenvolvido dentro da Paraleloz, para a Paraleloz. Enquanto designer do time, fui responsável por evoluir a interface do site da Paraleloz, tornando-o condizente com a missão e os valores da empresa. Prezando o espírito inovador, a imersão em tecnologia e o design como solução.  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- header content section -->
+<!-- hero -->
+</div>
+<div class="col-md-5 col-sm-6 hero text-center">
+<div class="hero-content"> <a href="http://www.paraleloz.com.br" class="btn">Visite o site <i class="fa fa-long-arrow-right"></i> </a> </div>
+<!-- hero -->
+<!-- portfolio grid section -->
+<section id="work-detail">
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-md-12 work-detail ">
+        <div class="work-detail"> <img src="images/portfolio/paralelo-1.png" class="img-responsive" alt="image-1"> <img src="images/portfolio/paraleloz-2.png" class="img-responsive" alt="image-2"> <img src="images/portfolio/paraleloz-3" class="img-responsive" alt="image-3"><img src="images/portfolio/paraleloz-4" class="img-responsive" alt="image-4"><br>
+        <iframe src="//www.dailymotion.com/embed/video/x6h5d51" allowfullscreen="" allow="autoplay" width="480" height="270" frameborder="0"></iframe>  <p class="extra-padding">Design de Interface, Edição de Vídeo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section -->
+<!-- service section -->
+<section id="service" class="service section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6">
+        <h4>Soluções em Design</h4>
+        <p>Tatyana Domen é UI Designer e aprendiz em UX Design. Já atuou como professora de arte e fashion retoucher.<br>
+          As vezes faz artesanatos, ilustrações e maquiagens artísticas e conceituais.</p><br>
+<br>
+          <h4>Formação acadêmica</h4>
+<p><strong>ESPM Escola Superior de Propaganda e Marketing</strong><br>
+Pós-Graduação em Comunicação e Design Digital, 2018 -2020<br>
+<br>
+<strong>UNICESUMAR - Centro Universitário de Maringá</strong><br>
+Pós-Graduação em Arte na Contemporaneidade, 2013 – 2014<br>
+<br>
+<strong>UNICESUMAR - Centro Universitário de Maringá</strong><br>
+Gradação em Artes Visuais,2008 – 2012</p>
+
+      </div>
+      <div class="col-md-7 col-sm-6">
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-browser"></span>
+          <div class="service-content">
+            <h5>Web & Mobile</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-trophy"></span>
+          <div class="service-content">
+            <h5>Branding</h5>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-megaphone"></span>
+          <div class="service-content">
+            <h5>Digital Marketing</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- service section -->
+<!-- footer section -->
+<footer class="footer">
+  <div class="container">
+    <div class="col-md-6 left">
+      <h4>Entre em contato:</h4>
+      <p> Ligue: <a href=tel:44998495442> +55 44 9 99849 5442 </a> ou envie uma mensagem no <a href=https://api.whatsapp.com/send?phone=5544998495442=Contato-site> Whatsapp </a>
+      <a href="mailto:hello@tatyanadomen.me"> hello@tatyanadomen.me </a></p>
+    </div>
+    <div class="col-md-6 right">
+      <p>© 2018 All rights reserved.<br>
+        Made with <i class="fa fa-heart pulse"></i> Base theme by <a href="http://www.designstub.com/">Designstub</a></p>
+    </div>
+  </div>
+</footer>
+<!-- footer section -->
+
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
