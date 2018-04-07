@@ -1,16 +1,15 @@
 /* ------------------------------------------------------------------------------
-	Template Name: Flosix
+	Template Name: Auro
 	Author: Designstub
 	Author URI: http://www.designstub.com
-	License: GNU General Public License version 3.0
-	License URI: http://www.gnu.org/licenses/gpl-3.0.html
-	Version: 1.0
+------------------------------------------------------------------------------*/
 
+
+
+@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 /* ------------------------------------------------------------------------------
-	Typography
+	 Typography
 -------------------------------------------------------------------------------*/
-
-@import url(http://fonts.googleapis.com/css?family=Cutive%20Mono:400);
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -37,17 +36,18 @@ h4 {
 h5 {
 	font-size: 14px;
 	color: #2d3033;
+	text-transform: uppercase;
 	font-weight: 700;
 }
 .btn {
 	background-color: #333;
-	margin: 40px;
+	margin-top: 40px;
 	color: #fff;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	border-radius: 0px;
-	padding: 3%;
+	padding: 3% 7%;
 	display: inline-block;
 	text-transform: uppercase;
 }
@@ -59,7 +59,7 @@ h5 {
 	padding: 15px 40px;
 }
 /* ------------------------------------------------------------------------------
-	Global Styles
+	 General Style
 -------------------------------------------------------------------------------*/
 a {
 	color: #e84545;
@@ -72,9 +72,9 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Cutive Mono";
+	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	color: #fff;
+	color: #6c7279;
 }
 ul, ol {
 	margin: 0;
@@ -84,7 +84,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 50px 0;
+	padding: 100px 0;
 }
 .no-padding {
 	padding: 0;
@@ -93,20 +93,19 @@ ul li {
 	padding-right: 0;
 	padding-left: 0;
 }
-.extra-padding {
-	margin: 60px 0 0 100px;
-}
 /* ------------------------------------------------------------------------------
-	 Header
+	 Header & navigation
 -------------------------------------------------------------------------------*/
 #header {
 	position: fixed;
-	width: 100%;
+	width: 94%;
 	z-index: 999;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 #header .header-content {
 	margin: 0 auto;
-	padding: 60px 10%;
+	padding: 40px 0;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
@@ -114,14 +113,18 @@ ul li {
 	transition: padding 0.3s;
 }
 #header .logo {
+	font-size: 21px;
+	color: #000;
+	font-weight: 700;
 	float: left;
+	text-transform: uppercase;
 }
 #header.fixed {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: #fff;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
-	padding: 25px 10%;
+	padding: 25px 0;
 }
 #header.fixed .nav-toggle {
 	top: 18px;
@@ -140,14 +143,16 @@ ul li {
 .navigation li {
 	display: inline-block;
 }
-.navigation, .navigation a {
-	color: rgba(0, 0, 0, 1);
-	font-size: 16px;
+.navigation a {
+	color: #000;
+	font-size: 13px;
+	font-weight: 300;
 	margin-left: 40px;
-	letter-spacing: -1px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #000;
+	color: #bcbcbc;
 }
 .nav-toggle {
 	display: none;
@@ -186,7 +191,7 @@ ul li {
 	transition-property: transform;
 }
 .nav-toggle:before {
-	background-color: #333;
+	background-color: #e84545;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
@@ -197,7 +202,7 @@ ul li {
 	transition-duration: 0.3s;
 }
 .nav-toggle:after {
-	background-color: #000;
+	background-color: #e84545;
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
 	-webkit-transform: scale(0);
@@ -286,30 +291,102 @@ ul li {
 	transform: translateY(0) rotate(-45deg);
 }
 /* ------------------------------------------------------------------------------
-	 Hero content
+	 Header Slider
 -------------------------------------------------------------------------------*/
-.hero {
-	margin-top: 10%;
+
+.carousel {
+	width: 94%;
+	height: 500px;
+	margin: auto;
 }
-.hero-content {
+.item, .active, .carousel-inner {
+	height: 100%;
 }
-.hero h1 {
-	font-size: 48px;
-	text-transform: uppercase;
-}
-.hero h4 {
-	font-weight: 400;
-}
-.hero p {
+.carousel-caption {
+	bottom: 40%;
+	color: #fff;
+	left: 15%;
+	padding-bottom: 20px;
 	padding-top: 20px;
+	position: absolute;
+	right: 15%;
+	text-align: center;
+	z-index: 10;
+}
+.carousel-caption h3 {
+	font-family: "Open Sans", sans-serif;
+	color: #2d3033;
+	text-shadow: none;
+	font-size: 31px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.carousel-caption p {
+	font-family: "Open Sans", sans-serif;
+	color: #6c7279;
+	text-shadow: none;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.carousel-control.left {
+	background: none;
+}
+.carousel-control.right {
+	background: none;
+}
+.carousel-control {
+	opacity: 1;
+	text-shadow: none;
+}
+/* ------------------------------------------------------------------------------
+	 sobre
+-------------------------------------------------------------------------------*/
+.sobre {
+	width: 94%;
+	margin: auto;
+	background-color: #f2f2f2;
+}
+.sobre h4 {
+	font-size: 33px;
+	line-height: 33px;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+.sobre h5 {
+	font-size: 21px;
+	font-weight: 300;
+	margin-bottom: 10%;
+	text-transform: none;
+}
+.sobre p {
+	color: #6c7279;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 7%;
+}
+.sobre-content {
+	margin: 50px;
+}
+.sobre-content li a {
+	color: #6c7279;
+	line-height: 30px;
+}
+.sobre-content li a:hover {
+	color: #000;
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
+#portfolio {
+	width: 92%;
+	margin: auto;
+}
 #portfolio .portfolio-item {
 	right: 0;
-	margin: 0 0 20px;
-	padding: 0 10px;
+	margin: 0 0 2px;
+	padding: 0 1px;
 }
 #portfolio .portfolio-item .portfolio-link {
 	display: block;
@@ -321,7 +398,7 @@ ul li {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: rgba(58,54,54,.9);
+	background: rgba(58, 54, 54, .9);
 	-webkit-transition: all ease .5s;
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;
@@ -360,50 +437,74 @@ ul li {
 	z-index: 2;
 }
 /* ------------------------------------------------------------------------------
-	 Service
+	 Testimonials
 -------------------------------------------------------------------------------*/
-.service {
-	margin-bottom: 50px;
+.testimonials {
+	width: 94%;
+	margin: auto;
+	background-color: #333;
+	position: relative;
+	text-align: center;
 }
-.service h4 {
-	font-size: 19px;
-	color: #000;
+.testimonials blockquote {
+	border: 0;
+	margin: 0;
+	padding: 100px 15%;
+}
+.testimonials h1 {
+	color: #fff;
+	font: 19px "Open Sans", sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.testimonials p {
+	color: #fff;
+	display: block;
+	font-size: 11px;
+	font-style: normal;
+	letter-spacing: 2px;
 	font-weight: 400;
-	text-transform: uppercase;
-}
-.service-content {
 	margin-top: 30px;
-}
-.service .icon {
-	color: #a1a4a8;
-	font-size: 48px;
-}
-.service-content h5 {
 	text-transform: uppercase;
-	font-weight: 400;
-	color: #000;
 }
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
+	width: 94%;
+	margin: auto;
 	text-align: left;
-	background-color: #333;
-	padding: 7%;
+	padding-top: 5%;
+	padding-bottom: 7%;
 }
 .footer h4 {
-	color: #fff;
+	font-size: 13px;
+	color: #000;
 	margin: 0 0 15px 0;
 	padding: 0px;
 }
 .footer p {
-	color: #c8c8c8;
+	font-size: 11px;
+	color: #6c7279;
 }
 .footer a {
-	color: #fff;
+	color: #000;
 }
 .footer a:hover {
 	text-decoration: underline;
+}
+.footer .footer-share {
+	margin-top: 0;
+}
+.footer .footer-share li {
+	display: inline-block;
+	float: none;
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 13px;
+	color: #000;
+	letter-spacing: 15px;
 }
 .footer .fa-heart {
 	color: #e84545;
@@ -411,15 +512,32 @@ ul li {
 	margin: 0 2px;
 }
 /* ------------------------------------------------------------------------------
-	 Work Details
+	 Work Detial 
 -------------------------------------------------------------------------------*/
-.work-detail img {
-	width: 100%;
-	text-align: center;
-	margin: 5% 0 5% 0;
-}
 
-.work-detail a
-{
-	color:#000;
+.work-detail {
+	width: 94%;
+	margin: auto;
+}
+.work-detail-margin {
+	margin-top: 7%;
+}
+.detail-image img {
+	width: 100%;
+}
+.detail-contentbox {
+	background-color: #f2f2f2;
+	padding: 3%;
+}
+.detail-content h4 {
+	font-size: 27px;
+	line-height: 27px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+.detail-content p {
+	color: #6c7279;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 7%;
 }

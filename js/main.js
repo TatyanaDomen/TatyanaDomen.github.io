@@ -10,7 +10,13 @@ $(document).ready(function() {
 		}
 	});
 
-	
+
+	// Flexslider
+	$('.flexslider').flexslider({
+		animation: "fade",
+		directionNav: false,
+	});
+
 	// Page Scroll
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
@@ -18,7 +24,7 @@ $(document).ready(function() {
 	$(window).on('scroll', function () {
 	  	var cur_pos = $(this).scrollTop();
 	  	sections.each(function() {
-	    	var top = $(this).offset().top - 76
+	    	var top = $(this).offset().top - 276
 	        	bottom = top + $(this).outerHeight();
 	    	if (cur_pos >= top && cur_pos <= bottom) {
 	      		nav.find('a').removeClass('active');
