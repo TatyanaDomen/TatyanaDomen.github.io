@@ -20,14 +20,14 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: #f7aca8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline !important;
-  color: #52d3aa !important;
+  color: #f7aca8 !important;
 }
 a:focus, a:active {
   outline: none;
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #f7aca8;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #f7aca8;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #f7aca8;
 }
 
 .box-wrap {
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .nav li.active a {
   color: #000;
   background: transparent;
-  border-bottom: 2px solid #52d3aa;
+  border-bottom: 2px solid #f7aca8;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .nav li.active a {
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #52d3aa;
+    color: #f7aca8;
   }
 }
 @media screen and (max-width: 992px) {
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #services .service .service-icon i {
   font-size: 40px;
-  color: #52d3aa;
+  color: #f7aca8;
 }
 #services .service p {
   font-size: 18px;
@@ -253,6 +253,49 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 #work .fh5co-grid:hover .image-popup {
+  opacity: 1;
+}
+
+#workb .fh5co-grid {
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+}
+@media screen and (max-width: 480px) {
+  #workb .fh5co-grid {
+    height: 350px;
+  }
+}
+#workb .fh5co-grid .image-popup {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+}
+#workb .fh5co-grid .image-popup .work-title {
+  position: absolute;
+  top: 50%;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin-top: 25px;
+}
+#workb .fh5co-grid .image-popup .work-title span {
+  color: gray;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 20px
+}
+#workb .fh5co-grid .image-popup .work-title h3 {
+  margin-bottom: 20px;
+  margin-top: 20px
+}
+#workb .fh5co-grid:hover .image-popup {
   opacity: 1;
 }
 
@@ -385,7 +428,7 @@ footer .social {
 }
 .form-control:focus, .form-control:active {
   box-shadow: none;
-  border: 2px solid #52d3aa;
+  border: 2px solid #f7aca8;
 }
 
 #submit {
@@ -419,14 +462,14 @@ footer .social {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #f7aca8;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #52d3aa;
+  background: #f7aca8;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -463,7 +506,7 @@ footer .social {
   transition: 0.5s;
 }
 .social li a:hover, .social li a:focus {
-  color: #52d3aa;
+  color: #f7aca8;
   text-decoration: none;
 }
 .social li a i {
