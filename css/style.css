@@ -14,7 +14,7 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.8;
-  font-size: 20px;
+  font-size: 16px;
   background: #eeeff0;
   font-weight: 300;
 }
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro h2 {
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.5em;
 }
