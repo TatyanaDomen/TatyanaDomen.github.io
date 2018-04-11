@@ -35,7 +35,7 @@ a:focus, a:active {
 
 p {
   margin-bottom: 1.5em;
-  font-size: 160px;
+  font-size: 16px;
   color: #888888;
   font-weight: 300;
   font-family: "Roboto", Arial, sans-serif;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work .fh5co-grid {
-  height: 625px;
+  height: 62px;
   background-size: cover;
   margin-bottom: 30px;
   position: relative;
